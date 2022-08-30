@@ -1,0 +1,102 @@
+.barraMenuSuperior{
+    box-shadow: 1px 5px 13px green;
+    position: relative;
+    z-index: 10;
+}
+
+.bannerLogin{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.centerFormLogin{
+    position: relative;
+    transform: translate(0%, 50%) 
+}
+
+.minhaFonte{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.labelFormFont{
+    font-family: 'Noto Serif', serif !important;
+}
+
+.propaganda{
+    width: 100vw;
+    height: 100vh;
+    background-color:red;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    display: none;
+}
+
+.propaganda > button{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.propaganda > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mostrar{
+    display: block;
+}
+
+.ocultar{
+    display: none;
+}
+
+.logoApp{
+    width: 150px;
+}
+
+.animCard{
+    height: 100%;
+    object-fit: cover;
+    transition: height 1s;
+}
+
+.w-100:hover > .animCard{
+    height: 120%;
+    weight: 120%;	
+}
+
+.seleteorDog{
+    left:0;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    transition: background-color 2s;
+}
+.w-100:hover > .seleteorDog{
+    cursor: pointer;
+    background-color:#191a1a78
+}
+.nomeDog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -700%);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    transition: transform 1s;
+    //display:none;
+    text-align: center;
+}
+.w-100:hover > .nomeDog{
+    //display:block;
+    transform: translate(-50%, -50%);
+}
+
+.cor-verde{
+    background-color: darkgreen;
+}
